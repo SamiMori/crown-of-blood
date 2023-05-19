@@ -16,5 +16,11 @@ If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has a
    1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
    2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
 2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+
 # crown-of-blood
 blood crown is a supernatural fantasy rpg system with horror elements, everything contained here is a library for players to understand the world, its rules and capabilities.
+
+# GIT-PAGE
+1. git add dist -f
+2. git commit -m "adding dist"
+3. git subtree push --prefix dist origin gh-pages

@@ -16,7 +16,7 @@ defineProps({
 		default: 24,
 	},
 	flip: {
-		type: String as PropType< "horizontal"| "vertical"| "both"| null> ,
+		type: String as PropType<"horizontal" | "vertical" | "both" | null>,
 		default: null,
 	},
 	rotate: {
@@ -27,5 +27,7 @@ defineProps({
 </script>
 
 <template>
-  <svg-icon type="mdi" :path="path" :size="size" :flip="flip" :rotate="rotate" :style="`color: ${color}`"></svg-icon>
+	<svg :width="size" :height="size" viewBox="0 0 24 24">
+		<path :fill="color || 'fill-current'" :d="path" />
+	</svg>
 </template>

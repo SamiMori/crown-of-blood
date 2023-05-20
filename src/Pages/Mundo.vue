@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 
-const hell = ref("https://img.uhdpaper.com/wallpaper/diablo-4-hell-87@1@k-preview.jpg?dl")
+const hell = ref("https://media.gqitalia.it/photos/6006a0fa128e8e554449155e/16:9/w_1280,c_limit/kqp1d0xjdziy17lx0emt.jpeg")
 </script>
 
 <template>

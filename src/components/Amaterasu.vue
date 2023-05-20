@@ -63,7 +63,6 @@ const status = ref([
         quando um inimigo fizer um ataque contra você, o herdeiro pode desviar parcialmente o ataque com sua arma tomando
         somente metade do dano, a outra medade do dano é redirecionado para um alvo até 3m de distancia. O herdeiro só
         pode usar essa estratégia uma vez por turno.</p>
-      <!-- <p><strong>Mobilizador</strong>,</p> em andamento -->
     </div>
     <!-- Status -->
     <div class="flex-none w-[260px] relative">
@@ -101,5 +100,6 @@ const status = ref([
           </div>
         </div>
       </div>
+    </div>
   </div>
-</div></template>
+</template>

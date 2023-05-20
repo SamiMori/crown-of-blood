@@ -1,7 +1,6 @@
 import {createRouter, createWebHistory} from "vue-router"
 import Mundo from "../Pages/Mundo.vue"
 import Herancas from "../Pages/Herancas.vue"
-import App from "../App.vue"
 
 const routes = [
     {path: "/", name: "Mundo", component: Mundo},

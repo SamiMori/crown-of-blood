@@ -40,5 +40,12 @@
     "type": "Caos",
     "custe": 8,
     "req": "Nível 2"
+  },
+  {
+    "title": "Favor de Honra",
+    "desc": "Um numero de vezes igual ao seu nível, ao acertar o ataque e fazer a rolagem de dano pode optar por descartar a rolagem e fazer outra.",
+    "type": "Ordem",
+    "custe": 5,
+    "req": "Nível 2"
   }
 ]

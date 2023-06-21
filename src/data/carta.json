@@ -11,6 +11,16 @@
   },
   {
     "heranca": "A",
+    "origem": "Vida",
+    "acao": "Ação",
+    "duracao": "1 Turno",
+    "custo": 1,
+    "req": "Nível 1",
+    "titulo": "Benevolência",
+    "desc": "O herdeiro toma um momento para se livrar do que lhe aflige, podendo remover uma condição que esteja sobre ele ou um aliado."
+  },
+  {
+    "heranca": "A",
     "origem": "Luz",
     "acao": "Livre",
     "duracao": "Instantâneo",
@@ -27,7 +37,7 @@
     "custo": 1,
     "req": "Nível 1",
     "titulo": "Investida",
-    "desc": "O herdeiro conjura seu poder sobre seu ataque causando 1D8 de dano adicional no inimigos. O herdeiro também pode gastar mais pontos para aumentar a quantidade de dados de dano a cada 1 custo de poder, Além disso com um adicional de 1 no custo pode usar essa carta em um ataque do aliado."
+    "desc": "O herdeiro se move em alta velocidade podendo se descolocar até 6m e logo em seguida difere um ataque com 1 dado a menos que caso acerte causa 2D8 de dano."
   },
   {
     "heranca": "A",
@@ -35,13 +45,13 @@
     "acao": "Livre",
     "duracao": "Instantâneo",
     "custo": 1,
-    "req": "Nível 1",
+    "req": "Nível 2",
     "titulo": "Experiente",
     "desc": "O herdeiro pode consumir seus poderes para se aperfeiçoar em teste, para seu próximo teste adicione seu C.F. como modificador adicional, também pode ser usado em aliados a custo de +1."
   },
   {
     "heranca": "A",
-    "origem": "Luz",
+    "origem": "Morte",
     "acao": "Livre",
     "duracao": "Instantâneo",
     "custo": 2,
@@ -51,13 +61,65 @@
   },
   {
     "heranca": "A",
-    "origem": "Morte",
-    "acao": "Livre",
-    "duracao": "4 Turno",
-    "custo": 3,
+    "origem": "Luz",
+    "acao": "Ação",
+    "duracao": "3 Turno",
+    "custo": 2,
     "req": "Nível 2",
-    "titulo": "Foco Absoluto",
-    "desc": "O herdeiro escolhe um alvo ao qual sempre que bater causara 2D4 a mais de dano, o foco é cancelado quando o herdeiro perder a consciência ou atacar outro alvo."
+    "titulo": "Ímpeto Absoluto",
+    "foco": true,
+    "desc": "O herdeiro escolhe um alvo ao qual sempre que acertar com um ataque padrão causara 2D4 a mais de dano, o foco é cancelado se o herdeiro atacar outro alvo."
+  },
+  {
+    "heranca": "A",
+    "origem": "Vida",
+    "acao": "Ação",
+    "duracao": "Instantâneo",
+    "custo": 1,
+    "req": "Nível 2",
+    "titulo": "Chamas da Restauração",
+    "foco": true,
+    "desc": "O herdeiro sente todos os ferimetos formigando e queimando até cicatrizarem, curando-se em 2D8 + metade do seu poder. Além disso para cada 1 de poder a mais que o herdeiro usar adicionara 1 dado de cura."
+  },
+  {
+    "heranca": "A",
+    "origem": "Caos",
+    "acao": "Livre",
+    "duracao": "Instantâneo",
+    "custo": 1,
+    "req": "Nível 3",
+    "titulo": "Frenesi",
+    "desc": "O herdeiro abraça suas emoções sobre o campo de batalha se enchendo de adrenalina, ao usar essa carta o herdeiro pode efeturar um ataque adicional."
+  },
+  {
+    "heranca": "A",
+    "origem": "Sombra",
+    "acao": "Ação",
+    "duracao": "Instantâneo",
+    "custo": 1,
+    "req": "Nível 3",
+    "titulo": "",
+    "desc": "O herdeiro ."
+  },
+  {
+    "heranca": "A",
+    "origem": "Luz",
+    "acao": "Ação",
+    "duracao": "",
+    "custo": 1,
+    "req": "Nível 3",
+    "titulo": "",
+    "desc": "O herdeiro ."
+  },
+  {
+    "heranca": "A",
+    "origem": "Vida",
+    "acao": "Ação",
+    "duracao": "",
+    "custo": 1,
+    "req": "Nível 3",
+    "titulo": "",
+    "desc": "O herdeiro ."
   },
   {
     "heranca": "T",

@@ -15,6 +15,7 @@ const listSearch = computed(() => {
       return (
         b.desc.toUpperCase().includes(search.value.toUpperCase()) ||
         b.titulo.toUpperCase().includes(search.value.toUpperCase()) ||
+        b.req.toUpperCase().includes(search.value.toUpperCase()) ||
         b.origem.toUpperCase().includes(search.value.toUpperCase())
       );
     });
@@ -73,7 +74,7 @@ function herancaColor(deck: string) {
           {{ heranca(c.heranca) }}
         </div>
         <div class="border-b px-4 py-1 flex justify-between">
-          <p>{{ c.titulo }}</p>
+          <p>{{ c.titulo }}<span v-if="c.foco">(Foco)</span></p>
           <div>[{{ c.origem }}]</div>
         </div>
         <div class="flex justify-between px-2 pt-1 text-sm">

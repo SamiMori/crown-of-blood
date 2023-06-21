@@ -27,6 +27,13 @@ import CartaLista from "../components/CartaLista.vue";
         efeitos mas nunca a forma que ela toma.
       </p>
 
+      <br />
+      <p><strong>Nova versão</strong></p>
+      <p>
+        Cartas agora são consumiveis, cada carta oculpa um tamanho especifico
+        fazendo da montagem de deck um momento muito importante e ainda mais
+        importante é saber com o que está lidando antes de entrar em um combate
+      </p>
       <CartaLista />
     </div>
   </article>

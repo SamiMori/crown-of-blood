@@ -44,9 +44,9 @@ const status = ref([
       </p>
       <p>
         <strong>Liberação</strong> causa dano igual a 1D8 além de acertar mais
-        dois alvos a sua escolha que iram tomar 1D4 de dano, esse dano não pode
-        ser mudado nem adicionado o modificador, o alcance da liberação é de
-        corpo-a-corpo a 9m.
+        dois alvos a sua escolha que iram tomar 1D4 de dano dentro do alcance de
+        1m, esse dano não pode ser mudado nem adicionado o modificador, o
+        alcance da liberação é de corpo-a-corpo a 9m.
       </p>
       <p>
         <strong>Gema da tempestade</strong> causa dano igual a 1D8 e tem alcance
